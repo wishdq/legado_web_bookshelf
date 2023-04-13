@@ -445,6 +445,10 @@ export default {
               width: 84px;
               height: 112px;
             }
+            
+            img[lazy=loading] {
+              transform: scale(0.4);
+            }
           }
 
           .info {
